@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>How to Stake VTRS: Complete Step-by-Step Guide (2026) | VNRG Node</title>
+  <meta name="description" content="Learn how to stake VTRS tokens on the Vitreus network. Step-by-step guide covering buying VTRS, choosing a validator, delegating your stake, and earning VNRG rewards every epoch." />
+  <link rel="canonical" href="https://www.vnrgnode.com/blog/how-to-stake-vtrs/" />
+  <meta property="og:title" content="How to Stake VTRS: Complete Step-by-Step Guide (2026)" />
+  <meta property="og:description" content="Step-by-step guide to staking VTRS on the Vitreus network. Buy VTRS, choose a validator, delegate, and earn VNRG rewards." />
+  <meta property="og:url" content="https://www.vnrgnode.com/blog/how-to-stake-vtrs/" />
+  <meta property="og:type" content="article" />
+  <meta property="og:site_name" content="VNRG Node" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@vitreusstaking" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "How to Stake VTRS: Complete Step-by-Step Guide (2026)",
+    "description": "Learn how to stake VTRS tokens on the Vitreus network. Step-by-step guide covering buying VTRS, choosing a validator, delegating your stake, and earning VNRG rewards every epoch.",
+    "datePublished": "2026-03-20",
+    "dateModified": "2026-03-20",
+    "author": { "@type": "Organization", "name": "VNRG Node", "url": "https://www.vnrgnode.com" },
+    "publisher": { "@type": "Organization", "name": "VNRG Node", "url": "https://www.vnrgnode.com" },
+    "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.vnrgnode.com/blog/how-to-stake-vtrs/" }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    "name": "How to Stake VTRS on the Vitreus Network",
+    "description": "A complete guide to staking VTRS tokens with a Vitreus validator and earning VNRG rewards.",
+    "step": [
+      { "@type": "HowToStep", "position": 1, "name": "Get VTRS Tokens", "text": "Purchase VTRS tokens on a supported exchange and transfer them to a non-custodial wallet." },
+      { "@type": "HowToStep", "position": 2, "name": "Choose a Validator", "text": "Research Vitreus validators on the Collaborative Marketplace. Look for uptime, commission rate, and infrastructure transparency." },
+      { "@type": "HowToStep", "position": 3, "name": "Connect Your Wallet", "text": "Visit marketplace.vtrs.io and connect your wallet using the connect button in the top right." },
+      { "@type": "HowToStep", "position": 4, "name": "Find Your Validator", "text": "Search for your chosen validator. For VNRG Node, press Ctrl+F and type 1702 to find us instantly." },
+      { "@type": "HowToStep", "position": 5, "name": "Delegate Your VTRS", "text": "Enter the amount of VTRS to stake and confirm the delegation transaction in your wallet." },
+      { "@type": "HowToStep", "position": 6, "name": "Earn VNRG Rewards", "text": "Your stake is live immediately. Rewards accumulate every epoch and can be claimed or re-staked at any time." }
+    ]
+  }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing:border-box; margin:0; padding:0; }
+    :root { --bg:#000000; --bg2:#080808; --bg3:#0e0e0e; --card:#0f1a14; --border:#1a3028; --teal:#4de8a0; --teal-dim:#2ab872; --text:#f0f5f2; --muted:#5a7a68; --white:#ffffff; }
+    html { scroll-behavior:smooth; }
+    body { background:var(--bg); color:var(--text); font-family:'Space Grotesk',sans-serif; line-height:1.6; }
+    ::-webkit-scrollbar{width:6px;} ::-webkit-scrollbar-track{background:var(--bg2);} ::-webkit-scrollbar-thumb{background:var(--border);border-radius:3px;}
+    body > body > nav { position:fixed; top:0; left:0; right:0; z-index:100; display:flex; align-items:center; justify-content:space-between; padding:1rem 2rem; background:rgba(0,0,0,0.7); backdrop-filter:blur(16px); border-bottom:1px solid var(--border); }
+    .nav-logo { font-family:'Space Mono',monospace; font-weight:700; font-size:1.1rem; color:var(--teal); text-decoration:none; }
+    .nav-links { display:flex; gap:2rem; align-items:center; }
+    .nav-links a { color:var(--muted); text-decoration:none; font-size:0.9rem; font-weight:500; transition:color 0.2s; }
+    .nav-links a:hover { color:var(--text); }
+    .btn-body > nav { background:var(--teal); color:var(--bg) !important; padding:0.5rem 1.25rem; border-radius:100px; font-weight:700 !important; font-size:0.85rem !important; }
+
+    /* ARTICLE */
+    .article-hero { padding:8rem 2rem 3rem; text-align:center; background:radial-gradient(ellipse 70% 60% at 50% 0%, rgba(77,232,160,0.07), transparent); }
+    .breadcrumb { font-size:0.8rem; color:var(--muted); margin-bottom:1.5rem; }
+    .breadcrumb a { color:var(--muted); text-decoration:none; } .breadcrumb a:hover { color:var(--teal); }
+    .breadcrumb span { color:var(--border); margin:0 0.4rem; }
+    .article-meta { display:flex; gap:1rem; justify-content:center; align-items:center; flex-wrap:wrap; margin-bottom:1.5rem; }
+    .tag { font-size:0.72rem; font-weight:700; text-transform:uppercase; letter-spacing:0.08em; background:rgba(77,232,160,0.08); border:1px solid rgba(77,232,160,0.2); color:var(--teal); padding:0.2rem 0.65rem; border-radius:100px; }
+    .article-date, .article-read { font-size:0.78rem; color:var(--muted); font-family:'Space Mono',monospace; }
+    h1.article-title { font-size:clamp(1.8rem,4vw,2.8rem); font-weight:700; color:var(--white); max-width:760px; margin:0 auto 1rem; line-height:1.2; }
+    .article-intro { color:var(--muted); font-size:1.05rem; max-width:620px; margin:0 auto; }
+
+    .article-wrap { max-width:760px; margin:0 auto; padding:3rem 2rem 6rem; }
+
+    /* TOC */
+    .toc {
+      background:var(--card); border:1px solid var(--border); border-radius:16px; padding:1.5rem;
+      margin-bottom:3rem;
+    }
+    .toc h2 { font-size:0.85rem; font-weight:700; color:var(--white); text-transform:uppercase; letter-spacing:0.08em; margin-bottom:1rem; font-family:'Space Mono',monospace; }
+    .toc ol { list-style:none; counter-reset:toc; }
+    .toc ol li { counter-increment:toc; display:flex; align-items:baseline; gap:0.75rem; padding:0.4rem 0; border-bottom:1px solid var(--border); }
+    .toc ol li:last-child { border-bottom:none; }
+    .toc ol li::before { content:counter(toc,decimal-leading-zero); font-family:'Space Mono',monospace; font-size:0.75rem; color:var(--teal); flex-shrink:0; }
+    .toc ol li a { color:var(--muted); text-decoration:none; font-size:0.9rem; transition:color 0.2s; }
+    .toc ol li a:hover { color:var(--teal); }
+
+    /* PROSE */
+    h2[id], h3[id] { scroll-margin-top: 90px; }
+    .prose h2 { font-size:1.5rem; font-weight:700; color:var(--white); margin:3rem 0 1rem; padding-top:1rem; border-top:1px solid var(--border); }
+    .prose h3 { font-size:1.1rem; font-weight:700; color:var(--white); margin:2rem 0 0.6rem; }
+    .prose p { color:var(--muted); font-size:0.97rem; line-height:1.8; margin-bottom:1.25rem; }
+    .prose strong { color:var(--text); }
+    .prose a { color:var(--teal); text-decoration:none; } .prose a:hover { text-decoration:underline; }
+    .prose ul, .prose ol { color:var(--muted); font-size:0.95rem; line-height:1.8; padding-left:1.5rem; margin-bottom:1.25rem; }
+    .prose ul li, .prose ol li { margin-bottom:0.4rem; }
+
+    /* CALLOUTS */
+    .callout {
+      border-radius:12px; padding:1rem 1.25rem; margin:1.5rem 0; font-size:0.9rem; line-height:1.7;
+    }
+    .callout.tip { background:rgba(77,232,160,0.06); border:1px solid rgba(77,232,160,0.2); color:var(--text); }
+    .callout.warning { background:rgba(230,155,50,0.07); border:1px solid rgba(230,155,50,0.2); color:var(--text); }
+    .callout strong { color:var(--teal); }
+    .callout.warning strong { color:#e69b32; }
+
+    /* STEP CARD */
+    .step-block {
+      background:var(--card); border:1px solid var(--border); border-radius:20px; padding:1.75rem;
+      margin:1.5rem 0; display:flex; gap:1.5rem; align-items:flex-start;
+    }
+    .step-num { font-family:'Space Mono',monospace; font-size:1.1rem; font-weight:700; color:var(--teal); background:rgba(77,232,160,0.08); border:1px solid rgba(77,232,160,0.2); border-radius:10px; padding:0.4rem 0.75rem; flex-shrink:0; min-width:44px; text-align:center; }
+    .step-body h3 { font-size:1rem; font-weight:700; color:var(--white); margin-bottom:0.5rem; }
+    .step-body p { font-size:0.9rem; color:var(--muted); margin:0; }
+
+    /* INLINE CTA */
+    .inline-cta {
+      background:var(--card); border:1px solid var(--teal); border-radius:20px; padding:2rem;
+      text-align:center; margin:3rem 0;
+    }
+    .inline-cta h3 { font-size:1.1rem; font-weight:700; color:var(--white); margin-bottom:0.5rem; }
+    .inline-cta p { color:var(--muted); font-size:0.9rem; margin-bottom:1.5rem; }
+    .btn-primary { background:linear-gradient(135deg,var(--teal),var(--teal-dim)); color:var(--bg); font-weight:700; font-size:0.95rem; padding:0.85rem 2rem; border-radius:100px; text-decoration:none; display:inline-block; box-shadow:0 0 20px rgba(77,232,160,0.3); transition:transform 0.15s,box-shadow 0.2s; margin:0 0.4rem; }
+    .btn-primary:hover { transform:translateY(-2px); box-shadow:0 0 30px rgba(77,232,160,0.5); }
+    .btn-outline { background:transparent; color:var(--teal); font-weight:600; font-size:0.9rem; padding:0.75rem 1.5rem; border-radius:100px; text-decoration:none; border:1px solid var(--teal); display:inline-block; margin:0 0.4rem; transition:background 0.2s; }
+    .btn-outline:hover { background:rgba(77,232,160,0.08); }
+
+    footer { border-top:1px solid var(--border); background:var(--bg2); padding:2.5rem 2rem; }
+    .footer-inner { max-width:1100px; margin:0 auto; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:1.5rem; }
+    .footer-logo { font-family:'Space Mono',monospace; font-weight:700; color:var(--teal); text-decoration:none; }
+    .footer-links { display:flex; gap:1.5rem; flex-wrap:wrap; }
+    .footer-links a { color:var(--muted); text-decoration:none; font-size:0.85rem; transition:color 0.2s; }
+    .footer-links a:hover { color:var(--text); }
+    .footer-disclaimer { max-width:1100px; margin:1.5rem auto 0; font-size:0.75rem; color:var(--muted); border-top:1px solid var(--border); padding-top:1.25rem; }
+
+    @media(max-width:640px) { .step-block { flex-direction:column; gap:1rem; } }
+  </style>
+</head>
+<body>
+
+<nav aria-label="Main navigation">
+  <a href="/" class="nav-logo">VNRG Node</a>
+  <div class="nav-links">
+    <a href="/#why-stake">Why Stake</a>
+    <a href="/#rewards">Rewards</a>
+    <a href="/blog/">Blog</a>
+    <a href="/compare/">Compare</a>
+    <a href="/calculator/">Calculator</a>
+    <a href="https://marketplace.vtrs.io" target="_blank" rel="noopener" class="btn-nav">Stake VTRS →</a>
+  </div>
+</nav>
+
+<div class="article-hero">
+  <nav class="breadcrumb" aria-label="Breadcrumb">
+    <a href="/">Home</a><span>›</span>
+    <a href="/blog/">Blog</a><span>›</span>
+    How to Stake VTRS
+  </nav>
+  <div class="article-meta">
+    <span class="tag">Guide</span>
+    <span class="article-date">March 2026</span>
+    <span class="article-read">8 min read</span>
+  </div>
+  <h1 class="article-title">How to Stake VTRS: A Complete Step-by-Step Guide</h1>
+  <p class="article-intro">Everything you need to start staking VTRS on the Vitreus network — from buying your first tokens to watching VNRG rewards arrive every epoch.</p>
+</div>
+
+<article class="article-wrap" itemscope itemtype="https://schema.org/Article">
+
+  <!-- TABLE OF CONTENTS -->
+  <nav class="toc" aria-label="Table of contents">
+    <h2>In This Guide</h2>
+    <ol>
+      <li><a href="#what-is-vtrs-staking">What is VTRS Staking?</a></li>
+      <li><a href="#what-you-need">What You Need Before You Start</a></li>
+      <li><a href="#choosing-a-validator">How to Choose a Vitreus Validator</a></li>
+      <li><a href="#step-by-step">Step-by-Step: Staking VTRS with VNRG Node</a></li>
+      <li><a href="#rewards">Understanding Your VNRG Rewards</a></li>
+      <li><a href="#tips">Tips for Maximising Your Returns</a></li>
+      <li><a href="#faq">FAQ</a></li>
+    </ol>
+  </nav>
+
+  <div class="prose" itemprop="articleBody">
+
+    <!-- SECTION 1 -->
+    <h2 id="what-is-vtrs-staking">What is VTRS Staking?</h2>
+    <p>Staking VTRS means locking your tokens into the Vitreus network's validation process to help secure the blockchain. In return, you earn <strong>VNRG</strong> — the Vitreus utility rewards token — distributed automatically every epoch.</p>
+    <p>The Vitreus network uses a <strong>reputation-based proof-of-stake model</strong>. Validators (node operators) are responsible for confirming transactions and producing blocks. When you stake with a validator, you're delegating your tokens to support their node — and earning a share of the rewards they generate.</p>
+    <p>Unlike some staking models, VTRS staking on Vitreus is <strong>non-custodial</strong>: your tokens are staked on-chain and you remain in full control. You can unstake and redelegate at any time through the Vitreus Collaborative Marketplace.</p>
+
+    <div class="callout tip">
+      <strong>💡 Quick summary:</strong> Stake VTRS → Validator earns block rewards → 80% distributed to you as VNRG every epoch → Repeat.
+    </div>
+
+    <!-- SECTION 2 -->
+    <h2 id="what-you-need">What You Need Before You Start</h2>
+    <p>Before you can stake VTRS, you'll need three things:</p>
+    <ul>
+      <li><strong>VTRS tokens</strong> — available on supported exchanges. Check the official <a href="https://vitreus.io" target="_blank" rel="noopener noreferrer">vitreus.io</a> website for current exchange listings.</li>
+      <li><strong>A compatible non-custodial wallet</strong> — MetaMask or another EVM-compatible wallet that can connect to the Vitreus marketplace. Make sure you control your own private keys.</li>
+      <li><strong>A small amount of ETH or network gas</strong> — to cover the transaction fee when you confirm your delegation on-chain.</li>
+    </ul>
+    <div class="callout warning">
+      <strong>⚠️ Security reminder:</strong> Never share your seed phrase or private keys with anyone. Legitimate staking platforms will never ask for them. Only interact with the official <a href="https://marketplace.vtrs.io" target="_blank" rel="noopener noreferrer" style="color:#e69b32">marketplace.vtrs.io</a> — be alert to copycat phishing sites.
+    </div>
+
+    <!-- SECTION 3 -->
+    <h2 id="choosing-a-validator">How to Choose a Vitreus Validator</h2>
+    <p>Your choice of validator is one of the most important decisions in your staking setup. Here's what to evaluate:</p>
+
+    <h3>Uptime &amp; Reliability</h3>
+    <p>Every block your validator misses is a reward you don't earn. Look for validators with <strong>documented uptime above 99%</strong> and real infrastructure investment — backup power, dedicated internet, not just a home broadband connection.</p>
+
+    <h3>Commission Rate</h3>
+    <p>Validators charge a commission on gross rewards before distribution. A <strong>fixed 20% commission</strong> is standard in the Vitreus ecosystem. Be cautious of validators with variable rates or those that don't publish their commission openly.</p>
+
+    <h3>Reputation Score</h3>
+    <p>The Vitreus network's reputation model rewards validators for consistent uptime and performance — not just token weight. A validator with a strong reputation earns more baseline rewards, which means more for delegators too.</p>
+
+    <h3>Operator Transparency</h3>
+    <p>Is the operator reachable? Do they post updates? An anonymous validator with no communication channel is a risk you can easily avoid.</p>
+
+    <div class="callout tip">
+      <strong>💡 Tip:</strong> Use our <a href="/compare/">validator comparison page</a> to see how VNRG Node measures up across all these criteria side by side.
+    </div>
+
+    <!-- SECTION 4 -->
+    <h2 id="step-by-step">Step-by-Step: Staking VTRS with VNRG Node</h2>
+    <p>Here's the complete process from zero to earning rewards.</p>
+
+    <div class="step-block">
+      <div class="step-num">01</div>
+      <div class="step-body">
+        <h3>Get Your VTRS Tokens</h3>
+        <p>Purchase VTRS on a supported exchange and transfer them to your non-custodial wallet. Never stake tokens that are still held on an exchange — you need to be in control of your wallet to delegate.</p>
+      </div>
+    </div>
+
+    <div class="step-block">
+      <div class="step-num">02</div>
+      <div class="step-body">
+        <h3>Visit the Vitreus Collaborative Marketplace</h3>
+        <p>Head to <a href="https://marketplace.vtrs.io" target="_blank" rel="noopener noreferrer">marketplace.vtrs.io</a> in your browser. This is the official staking interface — make sure the URL is correct before connecting your wallet.</p>
+      </div>
+    </div>
+
+    <div class="step-block">
+      <div class="step-num">03</div>
+      <div class="step-body">
+        <h3>Connect Your Wallet</h3>
+        <p>Click the <strong>Connect</strong> button in the top right corner of the marketplace. Select your wallet provider (MetaMask or compatible) and approve the connection. Your wallet address will appear once connected.</p>
+      </div>
+    </div>
+
+    <div class="step-block">
+      <div class="step-num">04</div>
+      <div class="step-body">
+        <h3>Find VNRG Node</h3>
+        <p>Browse the validator list to find VNRG Node. The list can be long — here's the fastest way to find us:</p>
+        <div class="callout tip" style="margin-top:0.75rem;">
+          <strong>💡 Tip:</strong> Once the validator list loads, press <kbd style="background:var(--bg3);border:1px solid var(--border);border-radius:4px;padding:0.1rem 0.4rem;font-family:'Space Mono',monospace;font-size:0.85rem;">Ctrl+F</kbd> (or <kbd style="background:var(--bg3);border:1px solid var(--border);border-radius:4px;padding:0.1rem 0.4rem;font-family:'Space Mono',monospace;font-size:0.85rem;">⌘+F</kbd> on Mac) and type <strong>1702</strong> to find us instantly — our wallet address ends in ...1702.
+        </div>
+      </div>
+    </div>
+
+    <div class="step-block">
+      <div class="step-num">05</div>
+      <div class="step-body">
+        <h3>Delegate Your VTRS</h3>
+        <p>Click on the VNRG Node listing and enter the amount of VTRS you want to stake. Review the terms — commission rate, duration options, and reward schedule — then confirm the delegation transaction in your wallet. Your stake goes live immediately once the transaction is confirmed on-chain.</p>
+      </div>
+    </div>
+
+    <div class="step-block">
+      <div class="step-num">06</div>
+      <div class="step-body">
+        <h3>Earn VNRG Rewards Every Epoch</h3>
+        <p>That's it — your VTRS is now staking. VNRG rewards accumulate every epoch automatically. You can check your balance and claim or re-stake rewards at any time through the marketplace dashboard.</p>
+      </div>
+    </div>
+
+    <div class="inline-cta">
+      <h3>Ready to stake? VNRG Node is live on the marketplace.</h3>
+      <p>99%+ uptime · Fixed 20% commission · 80% of rewards to delegators every epoch.</p>
+      <a href="https://marketplace.vtrs.io" target="_blank" rel="noopener" class="btn-primary">Stake VTRS Now →</a>
+      <a href="/calculator/" class="btn-outline">Estimate My Rewards</a>
+    </div>
+
+    <!-- SECTION 5 -->
+    <h2 id="rewards">Understanding Your VNRG Rewards</h2>
+    <p>When you delegate VTRS to VNRG Node, your rewards work like this:</p>
+    <ul>
+      <li>The Vitreus network distributes rewards to validators for each block they participate in.</li>
+      <li>VNRG Node takes a <strong>20% commission</strong> from gross rewards to cover infrastructure and operations.</li>
+      <li>The remaining <strong>80% is distributed to delegators</strong> proportionally to their share of the total stake — automatically, every epoch.</li>
+      <li>Rewards are paid in <strong>VNRG</strong> (also called gVolts) — the Vitreus utility token.</li>
+      <li>VNRG can be used within the Vitreus ecosystem, traded, or <strong>converted back to VTRS</strong> through the Energy Broker to compound your stake.</li>
+    </ul>
+
+    <h3>What affects your reward rate?</h3>
+    <p>Your actual reward rate depends on several factors:</p>
+    <ul>
+      <li><strong>Validator uptime</strong> — higher uptime means more blocks participated in, and more rewards generated.</li>
+      <li><strong>Validator reputation score</strong> — the Vitreus network rewards consistent performers with higher baseline rewards.</li>
+      <li><strong>Your stake duration</strong> — longer staking commitments can attract bonus rewards at the end of a contract period.</li>
+      <li><strong>Network participation</strong> — overall validator and delegator activity across the network affects per-epoch reward rates.</li>
+    </ul>
+    <p>Use our <a href="/calculator/">VTRS staking rewards calculator</a> to model your potential returns based on stake amount and duration.</p>
+
+    <!-- SECTION 6 -->
+    <h2 id="tips">Tips for Maximising Your Returns</h2>
+
+    <h3>1. Choose a validator with proven uptime, not just a low commission</h3>
+    <p>A validator charging 15% commission but running at 95% uptime will earn you less than a 20% commission validator running at 99%+. Uptime is the most important variable in your reward calculation.</p>
+
+    <h3>2. Compound your rewards</h3>
+    <p>Don't let VNRG rewards sit idle. Periodically claim them and use the Vitreus Energy Broker to convert them back to VTRS, then re-stake. Even a monthly compounding cycle significantly improves long-term returns.</p>
+
+    <h3>3. Consider staking duration bonuses</h3>
+    <p>Longer staking commitments on the Vitreus network can unlock bonus rewards at contract end. If you're confident in your validator and the network, committing for 6–12 months can meaningfully boost your overall return.</p>
+
+    <h3>4. Monitor your validator's performance</h3>
+    <p>Keep an eye on your validator's uptime and reputation score through the marketplace. A healthy validator should maintain 99%+ uptime consistently. Follow <a href="https://twitter.com/vitreusstaking" target="_blank" rel="noopener noreferrer">@vitreusstaking</a> for VNRG Node performance updates.</p>
+
+    <h3>5. Diversify across validators if staking large amounts</h3>
+    <p>If you're staking a significant VTRS position, consider splitting it across two or three reputable validators. This reduces concentration risk if one validator experiences unexpected downtime.</p>
+
+    <!-- SECTION 7 -->
+    <h2 id="faq">Frequently Asked Questions</h2>
+
+    <h3>Can I unstake my VTRS at any time?</h3>
+    <p>Yes. Vitreus staking is non-custodial — you can unstake through the Collaborative Marketplace at any time. Note that some staking durations may have a lock-up period; check the validator's terms before delegating.</p>
+
+    <h3>Is my VTRS safe when staking?</h3>
+    <p>Your VTRS is staked directly on-chain — the validator never takes custody of your tokens. The main risk to your principal is smart contract risk, not validator behaviour. Validator downtime only affects your reward rate, not your staked balance.</p>
+
+    <h3>What wallet do I need?</h3>
+    <p>Any EVM-compatible non-custodial wallet works with the Vitreus marketplace. MetaMask is the most commonly used. Make sure you're on the correct Vitreus network configuration — check <a href="https://docs.vtrs.io" target="_blank" rel="noopener noreferrer">docs.vtrs.io</a> for network setup details.</p>
+
+    <h3>How long does it take to see rewards?</h3>
+    <p>Rewards begin accruing immediately from the first epoch after your delegation is confirmed on-chain. You'll see your accumulated rewards in the marketplace dashboard, and you can claim them at any time.</p>
+
+    <h3>What is VNRG and how do I use it?</h3>
+    <p>VNRG (gVolts) is the Vitreus utility rewards token. It can be used for fees within the Vitreus ecosystem, traded on supported exchanges, or converted back to VTRS via the Vitreus Energy Broker to compound your stake.</p>
+
+  </div><!-- end .prose -->
+
+  <!-- FINAL CTA -->
+  <div class="inline-cta">
+    <h3>Start Staking VTRS with VNRG Node</h3>
+    <p>Head to the Vitreus Collaborative Marketplace and find VNRG Node — wallet ending ...1702. Press Ctrl+F and type 1702 to find us instantly.</p>
+    <a href="https://marketplace.vtrs.io" target="_blank" rel="noopener" class="btn-primary">Go to Marketplace →</a>
+    <a href="/compare/" class="btn-outline">Compare Validators</a>
+  </div>
+
+</article>
+
+<footer>
+  <div class="footer-inner">
+    <a href="/" class="footer-logo">VNRG Node</a>
+    <nav class="footer-links" aria-label="Footer navigation">
+      <a href="/">Home</a>
+      <a href="/#why-stake">Why Stake</a>
+      <a href="/compare/">Compare</a>
+      <a href="/blog/">Blog</a>
+      <a href="/calculator/">Calculator</a>
+      <a href="https://marketplace.vtrs.io" target="_blank" rel="noopener">Marketplace →</a>
+    </nav>
+  </div>
+  <p class="footer-disclaimer">© 2026 VNRG Node · vnrgnode.com &nbsp;·&nbsp; Staking involves risk. Do your own research.</p>
+</footer>
+
+</body>
+</html>
