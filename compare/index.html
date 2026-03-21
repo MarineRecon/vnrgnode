@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Best VTRS Validator? VNRG Node vs Other Vitreus Validators</title>
+  <meta name="description" content="Comparing VTRS validators? See how VNRG Node stacks up — 99%+ uptime, 80% delegator rewards, dedicated infrastructure. Find the best Vitreus validator for your stake." />
+  <link rel="canonical" href="https://www.vnrgnode.com/compare/" />
+  <meta property="og:title" content="Best VTRS Validator? VNRG Node vs Other Vitreus Validators" />
+  <meta property="og:description" content="Comparing VTRS validators? See how VNRG Node stacks up — 99%+ uptime, 80% delegator rewards, dedicated infrastructure." />
+  <meta property="og:url" content="https://www.vnrgnode.com/compare/" />
+  <meta property="og:site_name" content="VNRG Node" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@vitreusstaking" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What should I look for in a VTRS validator?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "When choosing a Vitreus validator to stake VTRS with, look for: high uptime (99%+), a clear commission rate, real infrastructure investment (dedicated internet, backup power), transparent reward distribution, and an active operator who communicates with delegators."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the best VTRS validator?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The best VTRS validator depends on your priorities. VNRG Node offers 99%+ uptime backed by UPS battery backup and a dedicated leased internet line, a fixed 20% commission with 80% distributed to delegators every epoch, and transparent on-chain staking where you remain in control at all times."
+        }
+      }
+    ]
+  }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing:border-box; margin:0; padding:0; }
+    :root {
+      --bg:#000000; --bg2:#080808; --bg3:#0e0e0e; --card:#0f1a14;
+      --border:#1a3028; --teal:#4de8a0; --teal-dim:#2ab872;
+      --text:#f0f5f2; --muted:#5a7a68; --white:#ffffff;
+    }
+    html { scroll-behavior:smooth; }
+    h2[id], h3[id] { scroll-margin-top: 90px; }
+    body { background:var(--bg); color:var(--text); font-family:'Space Grotesk',sans-serif; line-height:1.6; }
+    ::-webkit-scrollbar{width:6px;} ::-webkit-scrollbar-track{background:var(--bg2);} ::-webkit-scrollbar-thumb{background:var(--border);border-radius:3px;}
+
+    body > nav {
+      position:fixed; top:0; left:0; right:0; z-index:100;
+      display:flex; align-items:center; justify-content:space-between;
+      padding:1rem 2rem; background:rgba(0,0,0,0.7); backdrop-filter:blur(16px);
+      border-bottom:1px solid var(--border);
+    }
+    .nav-logo { font-family:'Space Mono',monospace; font-weight:700; font-size:1.1rem; color:var(--teal); text-decoration:none; }
+    .nav-links { display:flex; gap:2rem; align-items:center; }
+    .nav-links a { color:var(--muted); text-decoration:none; font-size:0.9rem; font-weight:500; transition:color 0.2s; }
+    .nav-links a:hover, .nav-links a.active { color:var(--text); }
+    .btn-body > nav { background:var(--teal); color:var(--bg) !important; padding:0.5rem 1.25rem; border-radius:100px; font-weight:700 !important; font-size:0.85rem !important; }
+
+    .page-hero {
+      padding:8rem 2rem 4rem; text-align:center;
+      background:radial-gradient(ellipse 70% 60% at 50% 0%, rgba(77,232,160,0.07), transparent);
+    }
+    .section-label { font-size:0.75rem; letter-spacing:0.15em; text-transform:uppercase; color:var(--teal); font-weight:600; margin-bottom:0.75rem; font-family:'Space Mono',monospace; }
+    h1 { font-size:clamp(1.9rem,4vw,3rem); font-weight:700; line-height:1.2; color:var(--white); margin-bottom:1rem; }
+    .hero-sub { color:var(--muted); font-size:1.05rem; max-width:560px; margin:0 auto; }
+
+    .container { max-width:1000px; margin:0 auto; padding:0 2rem; }
+    section { padding:5rem 0; }
+
+    /* WHY IT MATTERS */
+    h2 { font-size:clamp(1.5rem,3vw,2.1rem); font-weight:700; color:var(--white); margin-bottom:1rem; }
+    .section-sub { color:var(--muted); font-size:0.95rem; max-width:640px; margin-bottom:2.5rem; }
+
+    /* CRITERIA GRID */
+    .criteria-grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(280px,1fr)); gap:1.25rem; margin-top:2.5rem; }
+    .criteria-card {
+      background:var(--card); border:1px solid var(--border); border-radius:20px; padding:1.5rem;
+    }
+    .criteria-icon { font-size:1.5rem; margin-bottom:0.6rem; display:block; }
+    .criteria-card h3 { font-size:1rem; font-weight:700; color:var(--white); margin-bottom:0.4rem; }
+    .criteria-card p { font-size:0.88rem; color:var(--muted); line-height:1.65; }
+
+    /* COMPARISON TABLE */
+    .table-section { background:var(--bg2); padding:5rem 2rem; }
+    .table-wrap { max-width:1000px; margin:0 auto; overflow-x:auto; }
+    table { width:100%; border-collapse:collapse; min-width:600px; }
+    thead th {
+      padding:1rem 1.25rem; text-align:center; font-size:0.85rem; font-weight:700;
+      background:var(--bg3); border-bottom:2px solid var(--border); color:var(--muted); text-transform:uppercase; letter-spacing:0.06em;
+    }
+    thead th.highlight { color:var(--teal); background:rgba(77,232,160,0.06); border-bottom-color:var(--teal); }
+    thead th:first-child { text-align:left; }
+    tbody tr { border-bottom:1px solid var(--border); }
+    tbody tr:last-child { border-bottom:none; }
+    tbody td {
+      padding:1rem 1.25rem; text-align:center; font-size:0.9rem; color:var(--muted);
+    }
+    tbody td:first-child { text-align:left; color:var(--text); font-weight:600; }
+    tbody td.highlight { background:rgba(77,232,160,0.03); color:var(--text); font-weight:600; }
+    .check { color:var(--teal); font-size:1.1rem; }
+    .cross { color:#e05555; font-size:1rem; }
+    .neutral { color:var(--muted); }
+    .badge-winner {
+      display:inline-block; background:var(--teal); color:var(--bg);
+      font-size:0.7rem; font-weight:700; padding:0.15rem 0.5rem; border-radius:100px;
+      margin-left:0.4rem; vertical-align:middle; text-transform:uppercase; letter-spacing:0.05em;
+    }
+    .col-label { font-size:0.8rem; font-weight:400; color:var(--muted); display:block; }
+
+    /* VERDICT */
+    .verdict-section { padding:5rem 2rem; }
+    .verdict-inner { max-width:1000px; margin:0 auto; }
+    .verdict-box {
+      background:var(--card); border:1px solid var(--teal); border-radius:24px; padding:2.5rem;
+      display:grid; grid-template-columns:1fr 1fr; gap:2.5rem;
+    }
+    @media(max-width:640px) { .verdict-box { grid-template-columns:1fr; } }
+    .verdict-box h3 { font-size:1rem; font-weight:700; color:var(--teal); text-transform:uppercase; letter-spacing:0.08em; margin-bottom:1rem; font-family:'Space Mono',monospace; }
+    .verdict-list { list-style:none; }
+    .verdict-list li { display:flex; gap:0.75rem; align-items:flex-start; margin-bottom:0.85rem; font-size:0.9rem; color:var(--muted); }
+    .verdict-list li::before { content:'✓'; color:var(--teal); font-weight:700; flex-shrink:0; }
+    .verdict-list li strong { color:var(--text); }
+
+    /* FAQ */
+    .faq-section { background:var(--bg2); padding:5rem 2rem; }
+    .faq-inner { max-width:1000px; margin:0 auto; }
+    .faq-grid { display:grid; gap:1rem; margin-top:2.5rem; }
+    .faq-item { background:var(--card); border:1px solid var(--border); border-radius:16px; padding:1.5rem; }
+    .faq-item h3 { font-size:1rem; font-weight:600; color:var(--white); margin-bottom:0.6rem; }
+    .faq-item p { font-size:0.9rem; color:var(--muted); line-height:1.7; }
+
+    /* CTA */
+    .cta-bar {
+      text-align:center; padding:5rem 2rem;
+      background:radial-gradient(ellipse 60% 80% at 50% 50%, rgba(77,232,160,0.05), transparent);
+    }
+    .cta-bar h2 { font-size:clamp(1.5rem,3vw,2rem); font-weight:700; color:var(--white); margin-bottom:1rem; }
+    .cta-bar p { color:var(--muted); margin-bottom:2rem; }
+    .btn-primary {
+      background:linear-gradient(135deg,var(--teal),var(--teal-dim)); color:var(--bg);
+      font-weight:700; font-size:0.95rem; padding:0.85rem 2rem; border-radius:100px;
+      text-decoration:none; display:inline-block;
+      box-shadow:0 0 20px rgba(77,232,160,0.3); transition:transform 0.15s,box-shadow 0.2s;
+      margin:0 0.5rem;
+    }
+    .btn-primary:hover { transform:translateY(-2px); box-shadow:0 0 30px rgba(77,232,160,0.5); }
+    .btn-secondary {
+      background:transparent; color:var(--text); font-weight:600; font-size:0.95rem;
+      padding:0.85rem 2rem; border-radius:100px; text-decoration:none;
+      border:1px solid var(--border); display:inline-block; margin:0 0.5rem; transition:border-color 0.2s,color 0.2s;
+    }
+    .btn-secondary:hover { border-color:var(--teal); color:var(--teal); }
+
+    footer { border-top:1px solid var(--border); background:var(--bg2); padding:2.5rem 2rem; }
+    .footer-inner { max-width:1100px; margin:0 auto; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:1.5rem; }
+    .footer-logo { font-family:'Space Mono',monospace; font-weight:700; color:var(--teal); text-decoration:none; }
+    .footer-links { display:flex; gap:1.5rem; flex-wrap:wrap; }
+    .footer-links a { color:var(--muted); text-decoration:none; font-size:0.85rem; transition:color 0.2s; }
+    .footer-links a:hover { color:var(--text); }
+    .footer-disclaimer { max-width:1100px; margin:1.5rem auto 0; font-size:0.75rem; color:var(--muted); border-top:1px solid var(--border); padding-top:1.25rem; }
+  </style>
+</head>
+<body>
+
+<nav aria-label="Main navigation">
+  <a href="/" class="nav-logo">VNRG Node</a>
+  <div class="nav-links">
+    <a href="/#why-stake">Why Stake</a>
+    <a href="/#rewards">Rewards</a>
+    <a href="/blog/">Blog</a>
+    <a href="/compare/" class="active">Compare</a>
+    <a href="/calculator/">Calculator</a>
+    <a href="https://marketplace.vtrs.io" target="_blank" rel="noopener" class="btn-nav">Stake VTRS →</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<div class="page-hero">
+  <p class="section-label">Validator Comparison</p>
+  <h1>Choosing the Right VTRS Validator</h1>
+  <p class="hero-sub">Not all validators are built the same. Here's what to look for — and how VNRG Node measures up.</p>
+</div>
+
+<!-- WHY IT MATTERS -->
+<section>
+  <div class="container">
+    <p class="section-label">What matters</p>
+    <h2>What to Look for in a Vitreus Validator</h2>
+    <p class="section-sub">Your choice of validator directly affects your staking rewards. A validator that goes offline misses block production — and you miss rewards. Here are the five criteria that matter most.</p>
+    <div class="criteria-grid">
+      <div class="criteria-card">
+        <span class="criteria-icon" role="img" aria-label="uptime">⚡</span>
+        <h3>Uptime &amp; Reliability</h3>
+        <p>Every block missed by your validator is a reward you don't earn. Look for documented infrastructure investment — not just a percentage claim.</p>
+      </div>
+      <div class="criteria-card">
+        <span class="criteria-icon" role="img" aria-label="commission">💎</span>
+        <h3>Commission Rate</h3>
+        <p>Commission is taken from your gross rewards before distribution. A fixed, transparent rate means no surprises. Avoid validators with variable or hidden fees.</p>
+      </div>
+      <div class="criteria-card">
+        <span class="criteria-icon" role="img" aria-label="infrastructure">🖥️</span>
+        <h3>Real Infrastructure</h3>
+        <p>Is the node running on a home broadband connection or a dedicated leased line with backup power? The difference shows in uptime during real-world conditions.</p>
+      </div>
+      <div class="criteria-card">
+        <span class="criteria-icon" role="img" aria-label="custody">🔒</span>
+        <h3>Non-Custodial</h3>
+        <p>You should always control your own tokens. Delegation on the Vitreus marketplace is on-chain — you can unstake at any time without asking permission.</p>
+      </div>
+      <div class="criteria-card">
+        <span class="criteria-icon" role="img" aria-label="transparency">📢</span>
+        <h3>Operator Transparency</h3>
+        <p>Is the validator operator reachable? Do they post updates, uptime reports, and performance data? An operator you can't reach is a risk you don't need.</p>
+      </div>
+      <div class="criteria-card">
+        <span class="criteria-icon" role="img" aria-label="reputation">⭐</span>
+        <h3>Reputation Score</h3>
+        <p>The Vitreus network uses a reputation-based model — validators with strong uptime and consistent performance earn higher rewards. A proven track record matters.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- COMPARISON TABLE -->
+<div class="table-section">
+  <div class="table-wrap">
+    <p class="section-label" style="margin-bottom:0.75rem">The numbers don't lie</p>
+    <h2 style="color:var(--white);font-size:clamp(1.4rem,3vw,2rem);margin-bottom:0.75rem;">What Commission Rate Actually Costs You</h2>
+    <p style="color:var(--muted);font-size:0.95rem;margin-bottom:2rem;max-width:640px;">Commission sounds like a small difference. Over time, it isn't. Here's exactly what you keep at each commission tier, assuming <strong style="color:var(--text)">10% APY</strong> — adjust your stake size to see how the gap grows.</p>
+
+    <!-- INTERACTIVE STAKE INPUT -->
+    <div style="display:flex;align-items:center;gap:1rem;margin-bottom:2rem;flex-wrap:wrap;">
+      <label for="compare-stake" style="font-size:0.85rem;color:var(--muted);font-weight:600;white-space:nowrap;">Your VTRS stake:</label>
+      <input type="number" id="compare-stake" value="1000" min="1"
+        style="background:var(--bg3);border:1px solid var(--border);border-radius:10px;color:var(--text);font-family:'Space Grotesk',sans-serif;font-size:1rem;font-weight:700;padding:0.5rem 0.9rem;width:160px;outline:none;"
+        aria-label="Enter your VTRS stake amount" />
+      <span style="font-size:0.85rem;color:var(--muted)">VTRS &nbsp;·&nbsp; 10% APY &nbsp;·&nbsp; rewards update live ↓</span>
+    </div>
+
+    <!-- REWARD IMPACT TABLE -->
+    <table aria-label="Commission rate impact on VTRS staking rewards">
+      <thead>
+        <tr>
+          <th style="text-align:left;">Stake Duration</th>
+          <th class="highlight">VNRG Node — 20% <span class="badge-winner">Lowest</span></th>
+          <th>Validator B — 25%</th>
+          <th>Validator C — 30%</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Gross rewards (your APY share)</td>
+          <td class="highlight" id="c-gross-a">—</td>
+          <td id="c-gross-b">—</td>
+          <td id="c-gross-c">—</td>
+        </tr>
+        <tr>
+          <td>You keep after commission</td>
+          <td class="highlight" style="color:var(--teal);font-weight:700;" id="c-keep-a">—</td>
+          <td id="c-keep-b">—</td>
+          <td id="c-keep-c">—</td>
+        </tr>
+        <tr>
+          <td>Reward after 1 Year</td>
+          <td class="highlight" id="c-1yr-a">—</td>
+          <td id="c-1yr-b">—</td>
+          <td id="c-1yr-c">—</td>
+        </tr>
+        <tr>
+          <td>Reward after 2 Years</td>
+          <td class="highlight" id="c-2yr-a">—</td>
+          <td id="c-2yr-b">—</td>
+          <td id="c-2yr-c">—</td>
+        </tr>
+        <tr>
+          <td>Reward after 3 Years</td>
+          <td class="highlight" id="c-3yr-a">—</td>
+          <td id="c-3yr-b">—</td>
+          <td id="c-3yr-c">—</td>
+        </tr>
+        <tr style="border-top:2px solid var(--border);">
+          <td><strong>Extra VTRS you earn vs. 25% validator</strong></td>
+          <td class="highlight" style="color:var(--teal);font-weight:700;" id="c-diff-b">—</td>
+          <td style="color:#e05555;" id="c-diff-b2">—</td>
+          <td style="color:#e05555;" id="c-diff-c">—</td>
+        </tr>
+      </tbody>
+    </table>
+    <p style="font-size:0.78rem;color:var(--muted);margin-top:1rem;">Based on 10% APY flat rate, no compounding. Actual rewards vary with network conditions, validator uptime, and reputation score.</p>
+
+    <!-- FEATURES TABLE -->
+    <h2 style="color:var(--white);font-size:clamp(1.2rem,2.5vw,1.6rem);margin:3rem 0 1.5rem;">Beyond Commission — What Else Matters</h2>
+    <table aria-label="Validator feature comparison">
+      <thead>
+        <tr>
+          <th>Feature</th>
+          <th class="highlight">VNRG Node — 20%</th>
+          <th>Validator B — 25%</th>
+          <th>Validator C — 30%</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Node Uptime</td>
+          <td class="highlight"><span class="check">✓</span> 99%+ documented</td>
+          <td><span class="neutral">~ Varies</span></td>
+          <td><span class="neutral">~ Varies</span></td>
+        </tr>
+        <tr>
+          <td>Dedicated Internet Line</td>
+          <td class="highlight"><span class="check">✓</span> Leased line</td>
+          <td><span class="neutral">Unknown</span></td>
+          <td><span class="neutral">Unknown</span></td>
+        </tr>
+        <tr>
+          <td>Backup Power (UPS)</td>
+          <td class="highlight"><span class="check">✓</span> Full UPS system</td>
+          <td><span class="neutral">Unknown</span></td>
+          <td><span class="neutral">Unknown</span></td>
+        </tr>
+        <tr>
+          <td>Non-Custodial Staking</td>
+          <td class="highlight"><span class="check">✓</span> On-chain always</td>
+          <td><span class="check">✓</span></td>
+          <td><span class="check">✓</span></td>
+        </tr>
+        <tr>
+          <td>Fixed Commission Rate</td>
+          <td class="highlight"><span class="check">✓</span> Never changes</td>
+          <td><span class="neutral">~ May vary</span></td>
+          <td><span class="neutral">~ May vary</span></td>
+        </tr>
+        <tr>
+          <td>Rewards Calculator</td>
+          <td class="highlight"><span class="check">✓</span> <a href="/calculator/" style="color:var(--teal)">Try it here</a></td>
+          <td><span class="cross">✗</span></td>
+          <td><span class="cross">✗</span></td>
+        </tr>
+        <tr>
+          <td>Staking Guide</td>
+          <td class="highlight"><span class="check">✓</span> <a href="/blog/how-to-stake-vtrs/" style="color:var(--teal)">Full guide</a></td>
+          <td><span class="cross">✗</span></td>
+          <td><span class="cross">✗</span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<script>
+  function fmtV(n) {
+    return n.toLocaleString(undefined, {maximumFractionDigits: 2}) + ' VTRS';
+  }
+  function calcCompare() {
+    const stake = parseFloat(document.getElementById('compare-stake').value) || 1000;
+    const gross = stake * 0.10; // 10% APY gross annual
+
+    const keepA = gross * 0.80; // 20% commission
+    const keepB = gross * 0.75; // 25% commission
+    const keepC = gross * 0.70; // 30% commission
+
+    document.getElementById('c-gross-a').textContent = fmtV(gross) + '/yr';
+    document.getElementById('c-gross-b').textContent = fmtV(gross) + '/yr';
+    document.getElementById('c-gross-c').textContent = fmtV(gross) + '/yr';
+
+    document.getElementById('c-keep-a').textContent = fmtV(keepA) + '/yr';
+    document.getElementById('c-keep-b').textContent = fmtV(keepB) + '/yr';
+    document.getElementById('c-keep-c').textContent = fmtV(keepC) + '/yr';
+
+    document.getElementById('c-1yr-a').textContent = fmtV(keepA);
+    document.getElementById('c-1yr-b').textContent = fmtV(keepB);
+    document.getElementById('c-1yr-c').textContent = fmtV(keepC);
+
+    document.getElementById('c-2yr-a').textContent = fmtV(keepA * 2);
+    document.getElementById('c-2yr-b').textContent = fmtV(keepB * 2);
+    document.getElementById('c-2yr-c').textContent = fmtV(keepC * 2);
+
+    document.getElementById('c-3yr-a').textContent = fmtV(keepA * 3);
+    document.getElementById('c-3yr-b').textContent = fmtV(keepB * 3);
+    document.getElementById('c-3yr-c').textContent = fmtV(keepC * 3);
+
+    const diffVsB = (keepA - keepB) * 3; // extra over 3 years vs 25%
+    const diffVsC = (keepA - keepC) * 3; // extra over 3 years vs 30%
+
+    document.getElementById('c-diff-b').textContent  = '+' + fmtV(diffVsB) + ' over 3 yrs';
+    document.getElementById('c-diff-b2').textContent = '-' + fmtV(diffVsB) + ' vs VNRG Node';
+    document.getElementById('c-diff-c').textContent  = '-' + fmtV(diffVsC) + ' vs VNRG Node';
+  }
+
+  document.getElementById('compare-stake').addEventListener('input', calcCompare);
+  calcCompare();
+</script>
+
+<!-- VERDICT -->
+<div class="verdict-section">
+  <div class="verdict-inner">
+    <p class="section-label">Our verdict</p>
+    <h2>Why We Built VNRG Node the Way We Did</h2>
+    <p class="section-sub" style="margin-bottom:2rem;">There are good validators in the Vitreus ecosystem. Here's what we've done differently.</p>
+    <div class="verdict-box">
+      <div>
+        <h3>What We Do</h3>
+        <ul class="verdict-list">
+          <li><strong>Fixed 20% commission</strong> — it doesn't change, ever.</li>
+          <li><strong>Dedicated leased internet line</strong> — not residential broadband that drops when the neighbours stream Netflix.</li>
+          <li><strong>Full UPS battery backup</strong> — the node stays online through power outages.</li>
+          <li><strong>On-chain, non-custodial</strong> — your VTRS never leaves your control.</li>
+          <li><strong>Active operator</strong> — we post updates, respond to questions, and report performance publicly.</li>
+        </ul>
+      </div>
+      <div>
+        <h3>What This Means for You</h3>
+        <ul class="verdict-list">
+          <li><strong>More rewards earned</strong> — high uptime means maximum block participation.</li>
+          <li><strong>No surprises</strong> — you know exactly what you're getting before you delegate.</li>
+          <li><strong>Peace of mind</strong> — real infrastructure behind a real commitment, not just a server in a bedroom.</li>
+          <li><strong>Full control</strong> — unstake any time, no permission needed.</li>
+          <li><strong>A partner, not just a service</strong> — we're invested in the Vitreus network's success too.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- FAQ -->
+<div class="faq-section">
+  <div class="faq-inner">
+    <p class="section-label">Questions</p>
+    <h2 style="font-size:clamp(1.4rem,3vw,2rem);color:var(--white);margin-bottom:0.75rem;">Common Validator Questions</h2>
+    <p style="color:var(--muted);margin-bottom:2.5rem;font-size:0.95rem;">Still deciding? Here are the questions we hear most often.</p>
+    <div class="faq-grid">
+      <div class="faq-item">
+        <h3>What should I look for in a VTRS validator?</h3>
+        <p>Look for documented uptime, a fixed and transparent commission rate, real infrastructure investment (not just claims), non-custodial staking, and an operator who communicates openly.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Can I stake with multiple validators?</h3>
+        <p>Yes — on the Vitreus Collaborative Marketplace you can split your VTRS across multiple validators. This diversifies your risk across different operators and infrastructure setups.</p>
+      </div>
+      <div class="faq-item">
+        <h3>What happens if I pick a bad validator?</h3>
+        <p>A validator with poor uptime will miss blocks and reduce your reward earnings. Your principal (VTRS tokens) is not at risk from validator downtime — only your reward rate is affected. You can unstake and redelegate at any time.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Is VNRG Node's commission rate competitive?</h3>
+        <p>20% is in line with other established Vitreus validators. The key differentiator isn't just the rate — it's the infrastructure behind it. A validator with a 15% rate but frequent downtime will earn you less than a 20% validator with 99%+ uptime.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- CTA -->
+<div class="cta-bar">
+  <h2>Ready to Delegate to VNRG Node?</h2>
+  <p>Head to the Vitreus Marketplace, find VNRG Node (wallet ending ...1702), and start earning.</p>
+  <a href="https://marketplace.vtrs.io" target="_blank" rel="noopener" class="btn-primary">Stake VTRS Now →</a>
+  <a href="/calculator/" class="btn-secondary">Estimate My Rewards</a>
+</div>
+
+<footer>
+  <div class="footer-inner">
+    <a href="/" class="footer-logo">VNRG Node</a>
+    <nav class="footer-links" aria-label="Footer navigation">
+      <a href="/">Home</a>
+      <a href="/#why-stake">Why Stake</a>
+      <a href="/compare/">Compare</a>
+      <a href="/blog/">Blog</a>
+      <a href="/calculator/">Calculator</a>
+      <a href="https://marketplace.vtrs.io" target="_blank" rel="noopener">Marketplace →</a>
+    </nav>
+  </div>
+  <p class="footer-disclaimer">© 2026 VNRG Node · vnrgnode.com &nbsp;·&nbsp; Staking involves risk. Do your own research.</p>
+</footer>
+
+</body>
+</html>
